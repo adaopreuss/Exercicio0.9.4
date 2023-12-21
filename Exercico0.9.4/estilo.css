@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    color: blue ;
+    flex-direction: column;
+    width: 600px;
+    border-radius: 10px;
+    
+
+
+}
+
+.modal1 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 420px;
+    border-bottom: 1px solid palevioletred;
+    border-bottom-style: 1px ;
+
+
+
+    }
+
+    .modal1 button {
+        background-color: pink;
+        fill: blue;
+        border: 0px;
+
+    }
+
+    .modal2{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    bottom: 600px;
+    bottom: 500px;
+    flex-direction: column;
+    color: white;
+
+   
+    }
+   
+   
+        
+   
+
+    .menssagem{
+        
+        display:flex;
+        align-items: center;
+        justify-content:start;
+        border-radius: 10px;
+        padding-left: 50px;
+       
+    }
+
+    .recebida{
+        background-color: aqua;
+        align-self: flex-start;
+        
+        
+        
+
+    }
+
+    .enviada{
+        background-color: aquamarine;
+        align-self: flex-end;
+    }
+
